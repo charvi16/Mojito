@@ -188,10 +188,68 @@ body {
   @apply text-xl font-medium;
 }
 
+/* ---------- ABOUT SECTION ---------- */
+#about {
+  @apply min-h-screen py-28 2xl:px-0 px-5 container mx-auto;
+}
 
-  #about {
-    @apply min-h-screen py-28 2xl:px-0 px-5 container mx-auto;
-  }
+/* ---------- Content Grid ---------- */
+#about .content {
+  @apply grid grid-cols-1 lg:grid-cols-12 gap-5;
+}
+
+#about .content h2 {
+  @apply text-5xl md:text-6xl font-modern-negra max-w-lg;
+}
+
+/* ---------- Sub Content ---------- */
+#about .content .sub-content {
+  @apply md:col-span-4 space-y-5 flex flex-col justify-between;
+}
+
+#about .content .sub-content p {
+  @apply text-lg;
+}
+
+#about .content .sub-content div {
+  @apply flex flex-col justify-between md:gap-2 gap-5;
+}
+
+#about .content .sub-content div span {
+  @apply text-yellow font-bold text-5xl;
+}
+
+/* ---------- Badge ---------- */
+#about .badge {
+  @apply inline-block rounded-full bg-white text-black px-4 py-2 text-sm font-medium mb-8;
+}
+
+/* ---------- Top Grid ---------- */
+#about .top-grid {
+  @apply grid grid-cols-1 xl:grid-cols-12 gap-5 mb-5 md:px-0 px-5;
+}
+
+#about .top-grid > div {
+  @apply rounded-3xl overflow-hidden h-72 relative;
+}
+
+#about .top-grid img {
+  @apply object-cover w-full h-full;
+}
+
+/* ---------- Bottom Grid ---------- */
+#about .bottom-grid {
+  @apply grid grid-cols-1 md:grid-cols-12 gap-5 md:px-0 px-5;
+}
+
+#about .bottom-grid > div {
+  @apply rounded-3xl overflow-hidden h-72 relative;
+}
+
+#about .bottom-grid img {
+  @apply object-cover w-full h-full;
+}
+
 
   #art {
     @apply flex-center flex-col min-h-dvh p-5 mt-20 relative radial-gradient;
