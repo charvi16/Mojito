@@ -14,6 +14,9 @@ export default {
        maxWidth: {
         "2xs": "16rem", // 256px (same as v4-style 2xs)
       },
+      borderRadius : {
+        "4xl": "2rem",
+      },
     },
   },
   plugins: [],
