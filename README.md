@@ -1,16 +1,40 @@
-# React + Vite
+# 🍸 Mojito
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-v3-38bdf8?logo=tailwindcss)
+![GSAP](https://img.shields.io/badge/GSAP-Animations-88ce02)
+![Vite](https://img.shields.io/badge/Vite-Build_Tool-646cff?logo=vite)
 
-Currently, two official plugins are available:
+A modern, animated landing page built with **React**, **Tailwind CSS**, and **GSAP**, created to practice advanced UI animations and responsive layouts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> 🎓 **Learning Project** — inspired by the *JavaScript Mastery Master Web Animations in 2 Hours*.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Highlights
 
-## Expanding the ESLint configuration
+- ⚛️ Component-based UI with **React**
+- 🎨 Responsive styling using **Tailwind CSS**
+- 🎬 Smooth animations with **GSAP**
+- 📜 Scroll-based effects using **ScrollTrigger**
+- 📱 Fully responsive design
+- 🧠 Focus on animation & layout best practices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- React
+- Tailwind CSS (v3)
+- GSAP
+- Vite
+- JavaScript (ES6+)
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+```bash
+git clone https://github.com/your-username/mojito.git
+cd mojito
